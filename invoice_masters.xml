@@ -1,0 +1,676 @@
+<ENVELOPE>
+  <HEADER>
+    <TALLYREQUEST>Import Data</TALLYREQUEST>
+  </HEADER>
+  <BODY>
+    <IMPORTDATA>
+      <REQUESTDESC>
+        <REPORTNAME>All Masters</REPORTNAME>
+        <STATICVARIABLES>
+          <SVCURRENTCOMPANY>Kesans</SVCURRENTCOMPANY>
+        </STATICVARIABLES>
+      </REQUESTDESC>
+      <REQUESTDATA>
+        <TALLYMESSAGE>
+          <CURRENCY NAME="AED">
+            <ORIGINALNAME>AED</ORIGINALNAME>
+            <MAILINGNAME>UAE Dirham</MAILINGNAME>
+            <EXPANDEDSYMBOL>UAE Dirham</EXPANDEDSYMBOL>
+            <DECIMALSYMBOL>Fils</DECIMALSYMBOL>
+            <INMILLIONS>Yes</INMILLIONS>
+            <DECIMALPLACES>3</DECIMALPLACES>
+          </CURRENCY>
+          <CURRENCY NAME="؋">
+            <ORIGINALNAME>؋</ORIGINALNAME>
+            <MAILINGNAME>AFN</MAILINGNAME>
+            <EXPANDEDSYMBOL>AFN</EXPANDEDSYMBOL>
+            <INMILLIONS>Yes</INMILLIONS>
+            <DECIMALPLACES>2</DECIMALPLACES>
+          </CURRENCY>
+          <CURRENCY NAME="AMD">
+            <ORIGINALNAME>AMD</ORIGINALNAME>
+            <MAILINGNAME>Armenian Dram</MAILINGNAME>
+            <EXPANDEDSYMBOL>Armenian Dram</EXPANDEDSYMBOL>
+            <INMILLIONS>Yes</INMILLIONS>
+            <DECIMALPLACES>2</DECIMALPLACES>
+          </CURRENCY>
+          <CURRENCY NAME="$">
+            <ORIGINALNAME>$</ORIGINALNAME>
+            <MAILINGNAME>AUD</MAILINGNAME>
+            <EXPANDEDSYMBOL>AUD</EXPANDEDSYMBOL>
+            <DECIMALSYMBOL>Cents</DECIMALSYMBOL>
+            <INMILLIONS>Yes</INMILLIONS>
+            <DECIMALPLACES>2</DECIMALPLACES>
+          </CURRENCY>
+          <CURRENCY NAME="$b">
+            <ORIGINALNAME>$b</ORIGINALNAME>
+            <MAILINGNAME>BOB</MAILINGNAME>
+            <EXPANDEDSYMBOL>BOB</EXPANDEDSYMBOL>
+            <INMILLIONS>Yes</INMILLIONS>
+            <DECIMALPLACES>2</DECIMALPLACES>
+          </CURRENCY>
+          <CURRENCY NAME="₹">
+            <ORIGINALNAME>₹</ORIGINALNAME>
+            <MAILINGNAME>INR</MAILINGNAME>
+            <EXPANDEDSYMBOL>INR</EXPANDEDSYMBOL>
+            <DECIMALSYMBOL>Paise</DECIMALSYMBOL>
+            <INMILLIONS>Yes</INMILLIONS>
+            <DECIMALPLACES>2</DECIMALPLACES>
+          </CURRENCY>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE>
+          <UNIT NAME="Number">
+            <NAME>Number</NAME>
+            <ISSIMPLEUNIT>Yes</ISSIMPLEUNIT>
+            <GSTREPUOM>NOS-NUMBERS</GSTREPUOM>
+          </UNIT>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE>
+          <STOCKITEM NAME="Tooth paste">
+            <NAME>Tooth paste</NAME>
+            <GSTAPPLICABLE>Taxable</GSTAPPLICABLE>
+            <GSTTYPEOFSUPPLY>Goods</GSTTYPEOFSUPPLY>
+            <BASEUNITS>Number</BASEUNITS>
+            <OPENINGBALANCE>1345.00 Number</OPENINGBALANCE>
+            <OPENINGVALUE>-95495.00</OPENINGVALUE>
+            <OPENINGRATE>71.00/Number</OPENINGRATE>
+            <STANDARDCOSTLIST.LIST>
+              <DATE>20010101</DATE>
+              <RATE>80.00/Number</RATE>
+            </STANDARDCOSTLIST.LIST>
+            <STANDARDPRICELIST.LIST>
+              <DATE>20010101</DATE>
+              <RATE>71.00/Number</RATE>
+            </STANDARDPRICELIST.LIST>
+            <GSTDETAILS.LIST>
+              <APPLICABLEFROM>20010101</APPLICABLEFROM>
+              <CALCULATIONTYPE>On Value</CALCULATIONTYPE>
+              <TAXABILITY>Taxable</TAXABILITY>
+              <HSNCODE>33061020</HSNCODE>
+              <STATEWISEDETAILS.LIST>
+                <STATENAME>&#4; Any</STATENAME>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>Integrated Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>5.00</GSTRATE>
+                </RATEDETAILS.LIST>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>Central Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>2.50</GSTRATE>
+                </RATEDETAILS.LIST>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>State Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>2.50</GSTRATE>
+                </RATEDETAILS.LIST>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>Cess</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>0.00</GSTRATE>
+                </RATEDETAILS.LIST>
+              </STATEWISEDETAILS.LIST>
+            </GSTDETAILS.LIST>
+          </STOCKITEM>
+          <STOCKITEM NAME="Soap">
+            <NAME>Soap</NAME>
+            <GSTAPPLICABLE>Taxable</GSTAPPLICABLE>
+            <GSTTYPEOFSUPPLY>Goods</GSTTYPEOFSUPPLY>
+            <BASEUNITS>Number</BASEUNITS>
+            <OPENINGBALANCE>400.00 Number</OPENINGBALANCE>
+            <OPENINGVALUE>-9600.00</OPENINGVALUE>
+            <OPENINGRATE>24.00/Number</OPENINGRATE>
+            <STANDARDCOSTLIST.LIST>
+              <DATE>20010101</DATE>
+              <RATE>30.00/Number</RATE>
+            </STANDARDCOSTLIST.LIST>
+            <STANDARDPRICELIST.LIST>
+              <DATE>20010101</DATE>
+              <RATE>24.00/Number</RATE>
+            </STANDARDPRICELIST.LIST>
+            <GSTDETAILS.LIST>
+              <APPLICABLEFROM>20010101</APPLICABLEFROM>
+              <CALCULATIONTYPE>On Value</CALCULATIONTYPE>
+              <TAXABILITY>Taxable</TAXABILITY>
+              <HSNCODE>34011110</HSNCODE>
+              <STATEWISEDETAILS.LIST>
+                <STATENAME>&#4; Any</STATENAME>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>Integrated Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>5.00</GSTRATE>
+                </RATEDETAILS.LIST>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>Central Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>2.50</GSTRATE>
+                </RATEDETAILS.LIST>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>State Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>2.50</GSTRATE>
+                </RATEDETAILS.LIST>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>Cess</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>0.00</GSTRATE>
+                </RATEDETAILS.LIST>
+              </STATEWISEDETAILS.LIST>
+            </GSTDETAILS.LIST>
+          </STOCKITEM>
+          <STOCKITEM NAME="Tooth Brush">
+            <NAME>Tooth Brush</NAME>
+            <GSTAPPLICABLE>Taxable</GSTAPPLICABLE>
+            <GSTTYPEOFSUPPLY>Goods</GSTTYPEOFSUPPLY>
+            <BASEUNITS>Number</BASEUNITS>
+            <OPENINGBALANCE>600.00 Number</OPENINGBALANCE>
+            <OPENINGVALUE>-19200.00</OPENINGVALUE>
+            <OPENINGRATE>32.00/Number</OPENINGRATE>
+            <STANDARDCOSTLIST.LIST>
+              <DATE>20010101</DATE>
+              <RATE>43.99/Number</RATE>
+            </STANDARDCOSTLIST.LIST>
+            <STANDARDPRICELIST.LIST>
+              <DATE>20010101</DATE>
+              <RATE>32.00/Number</RATE>
+            </STANDARDPRICELIST.LIST>
+            <GSTDETAILS.LIST>
+              <APPLICABLEFROM>20010101</APPLICABLEFROM>
+              <CALCULATIONTYPE>On Value</CALCULATIONTYPE>
+              <TAXABILITY>Taxable</TAXABILITY>
+              <STATEWISEDETAILS.LIST>
+                <STATENAME>&#4; Any</STATENAME>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>Integrated Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>5.00</GSTRATE>
+                </RATEDETAILS.LIST>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>Central Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>2.50</GSTRATE>
+                </RATEDETAILS.LIST>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>State Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>2.50</GSTRATE>
+                </RATEDETAILS.LIST>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>Cess</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>0.00</GSTRATE>
+                </RATEDETAILS.LIST>
+              </STATEWISEDETAILS.LIST>
+            </GSTDETAILS.LIST>
+          </STOCKITEM>
+          <STOCKITEM NAME="Computers">
+            <NAME>Computers</NAME>
+            <GSTAPPLICABLE>Taxable</GSTAPPLICABLE>
+            <GSTTYPEOFSUPPLY>Goods</GSTTYPEOFSUPPLY>
+            <BASEUNITS>Number</BASEUNITS>
+            <STANDARDCOSTLIST.LIST>
+              <DATE>20010101</DATE>
+              <RATE>46234.00/Number</RATE>
+            </STANDARDCOSTLIST.LIST>
+            <STANDARDPRICELIST.LIST>
+              <DATE>20010101</DATE>
+              <RATE>43231.00/Number</RATE>
+            </STANDARDPRICELIST.LIST>
+            <GSTDETAILS.LIST>
+              <APPLICABLEFROM>20010101</APPLICABLEFROM>
+              <CALCULATIONTYPE>On Value</CALCULATIONTYPE>
+              <TAXABILITY>Exempt</TAXABILITY>
+            </GSTDETAILS.LIST>
+          </STOCKITEM>
+          <STOCKITEM NAME="Test item">
+            <NAME>Test item</NAME>
+            <GSTAPPLICABLE>Taxable</GSTAPPLICABLE>
+            <GSTTYPEOFSUPPLY>Goods</GSTTYPEOFSUPPLY>
+            <GSTDETAILS.LIST>
+              <APPLICABLEFROM>20010101</APPLICABLEFROM>
+              <CALCULATIONTYPE>On Value</CALCULATIONTYPE>
+              <TAXABILITY>Taxable</TAXABILITY>
+              <STATEWISEDETAILS.LIST>
+                <STATENAME>&#4; Any</STATENAME>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>Integrated Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>5.00</GSTRATE>
+                </RATEDETAILS.LIST>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>Central Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>2.50</GSTRATE>
+                </RATEDETAILS.LIST>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>State Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>2.50</GSTRATE>
+                </RATEDETAILS.LIST>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>Cess</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>0.00</GSTRATE>
+                </RATEDETAILS.LIST>
+              </STATEWISEDETAILS.LIST>
+            </GSTDETAILS.LIST>
+          </STOCKITEM>
+          <STOCKITEM NAME="pp">
+            <NAME>pp</NAME>
+            <GSTAPPLICABLE>Taxable</GSTAPPLICABLE>
+            <GSTTYPEOFSUPPLY>Goods</GSTTYPEOFSUPPLY>
+            <GSTDETAILS.LIST>
+              <APPLICABLEFROM>20010101</APPLICABLEFROM>
+              <CALCULATIONTYPE>On Value</CALCULATIONTYPE>
+              <TAXABILITY>Taxable</TAXABILITY>
+              <STATEWISEDETAILS.LIST>
+                <STATENAME>&#4; Any</STATENAME>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>Integrated Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>5.00</GSTRATE>
+                </RATEDETAILS.LIST>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>Central Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>2.50</GSTRATE>
+                </RATEDETAILS.LIST>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>State Tax</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>2.50</GSTRATE>
+                </RATEDETAILS.LIST>
+                <RATEDETAILS.LIST>
+                  <GSTRATEDUTYHEAD>Cess</GSTRATEDUTYHEAD>
+                  <GSTRATEVALUATIONTYPE>Based on Value</GSTRATEVALUATIONTYPE>
+                  <GSTRATE>0.00</GSTRATE>
+                </RATEDETAILS.LIST>
+              </STATEWISEDETAILS.LIST>
+            </GSTDETAILS.LIST>
+          </STOCKITEM>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE>
+          <LEDGER NAME="Mrs. Ponny">
+            <ADDRESS.LIST TYPE="String">
+              <ADDRESS>Gres</ADDRESS>
+              <ADDRESS>Tvm</ADDRESS>
+              <ADDRESS>KL, India</ADDRESS>
+            </ADDRESS.LIST>
+            <COUNTRYNAME>India</COUNTRYNAME>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <GSTREGISTRATIONTYPE>Regular</GSTREGISTRATIONTYPE>
+            <INCOMETAXNUMBER>AAACV5492Q</INCOMETAXNUMBER>
+            <PARTYGSTIN>32AAACV5492Q1ZR</PARTYGSTIN>
+            <PARENT>Sundry Debtors</PARENT>
+            <NAME>Mrs. Ponny</NAME>
+          </LEDGER>
+          <LEDGER NAME="Flashter Inc.">
+            <ADDRESS.LIST TYPE="String">
+              <ADDRESS>India</ADDRESS>
+            </ADDRESS.LIST>
+            <COUNTRYNAME>India</COUNTRYNAME>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <GSTREGISTRATIONTYPE>Regular</GSTREGISTRATIONTYPE>
+            <PARTYGSTIN>32AJIPD2210L1ZR</PARTYGSTIN>
+            <PARENT>Sundry Debtors</PARENT>
+            <NAME>Flashter Inc.</NAME>
+          </LEDGER>
+          <LEDGER NAME="Ethan">
+            <ADDRESS.LIST TYPE="String">
+              <ADDRESS>Kochi</ADDRESS>
+              <ADDRESS>Kerala, India</ADDRESS>
+            </ADDRESS.LIST>
+            <COUNTRYNAME>India</COUNTRYNAME>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <GSTREGISTRATIONTYPE>Regular</GSTREGISTRATIONTYPE>
+            <INCOMETAXNUMBER>GSPTN0371G</INCOMETAXNUMBER>
+            <PARTYGSTIN>33GSPTN0371G1ZD</PARTYGSTIN>
+            <PARENT>Sundry Debtors</PARENT>
+            <NAME>Ethan</NAME>
+          </LEDGER>
+          <LEDGER NAME="Ganesh">
+            <ADDRESS.LIST TYPE="String">
+              <ADDRESS>Chennai</ADDRESS>
+              <ADDRESS>Tamil Nadu, India</ADDRESS>
+            </ADDRESS.LIST>
+            <COUNTRYNAME>India</COUNTRYNAME>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <GSTREGISTRATIONTYPE>Unregistered</GSTREGISTRATIONTYPE>
+            <PARENT>Sundry Debtors</PARENT>
+            <NAME>Ganesh</NAME>
+          </LEDGER>
+          <LEDGER NAME="Ram">
+            <ADDRESS.LIST TYPE="String">
+              <ADDRESS>Ram &amp; Co.</ADDRESS>
+              <ADDRESS>Udumalpet</ADDRESS>
+              <ADDRESS>Tamil Nadu, India</ADDRESS>
+            </ADDRESS.LIST>
+            <COUNTRYNAME>India</COUNTRYNAME>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <GSTREGISTRATIONTYPE>Composition</GSTREGISTRATIONTYPE>
+            <INCOMETAXNUMBER>GSPTN0372G</INCOMETAXNUMBER>
+            <PARTYGSTIN>33GSPTN0372G1ZD</PARTYGSTIN>
+            <PARENT>Sundry Debtors</PARENT>
+            <NAME>Ram</NAME>
+          </LEDGER>
+          <LEDGER NAME="Mr. Jabu Ran">
+            <ADDRESS.LIST TYPE="String">
+              <ADDRESS>Test inc</ADDRESS>
+              <ADDRESS>India</ADDRESS>
+            </ADDRESS.LIST>
+            <COUNTRYNAME>India</COUNTRYNAME>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <ISSEZPARTY>Yes</ISSEZPARTY>
+            <INCOMETAXNUMBER>GSPTN0371G</INCOMETAXNUMBER>
+            <BILLCREDITPERIOD>30 Days</BILLCREDITPERIOD>
+            <PARTYGSTIN>33GSPTN0371G1ZD</PARTYGSTIN>
+            <PARENT>Sundry Debtors</PARENT>
+            <NAME>Mr. Jabu Ran</NAME>
+          </LEDGER>
+          <LEDGER NAME="VIRAT KOHLI">
+            <ADDRESS.LIST TYPE="String">
+              <ADDRESS>India</ADDRESS>
+            </ADDRESS.LIST>
+            <COUNTRYNAME>India</COUNTRYNAME>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <GSTREGISTRATIONTYPE>Regular</GSTREGISTRATIONTYPE>
+            <INCOMETAXNUMBER>AACCJ3176B</INCOMETAXNUMBER>
+            <PARTYGSTIN>32AACCJ3176B1Z3</PARTYGSTIN>
+            <PARENT>Sundry Debtors</PARENT>
+            <NAME>VIRAT KOHLI</NAME>
+          </LEDGER>
+          <LEDGER NAME="Gannu">
+            <ADDRESS.LIST TYPE="String">
+              <ADDRESS>India</ADDRESS>
+            </ADDRESS.LIST>
+            <COUNTRYNAME>India</COUNTRYNAME>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <GSTREGISTRATIONTYPE>Unregistered</GSTREGISTRATIONTYPE>
+            <PARENT>Sundry Debtors</PARENT>
+            <NAME>Gannu</NAME>
+          </LEDGER>
+          <LEDGER NAME="Sabu">
+            <ADDRESS.LIST TYPE="String">
+              <ADDRESS>India</ADDRESS>
+            </ADDRESS.LIST>
+            <COUNTRYNAME>India</COUNTRYNAME>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <GSTREGISTRATIONTYPE>Regular</GSTREGISTRATIONTYPE>
+            <INCOMETAXNUMBER>AABCK2815K</INCOMETAXNUMBER>
+            <PARTYGSTIN>36AABCK2815K1ZK</PARTYGSTIN>
+            <PARENT>Sundry Creditors</PARENT>
+            <NAME>Sabu</NAME>
+          </LEDGER>
+          <LEDGER NAME="Mrs. Exporter">
+            <ADDRESS.LIST TYPE="String">
+              <ADDRESS>exporters</ADDRESS>
+              <ADDRESS>India</ADDRESS>
+            </ADDRESS.LIST>
+            <COUNTRYNAME>India</COUNTRYNAME>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <PARENT>Sundry Creditors</PARENT>
+            <NAME>Mrs. Exporter</NAME>
+          </LEDGER>
+          <LEDGER NAME="Mr. aji dharman">
+            <ADDRESS.LIST TYPE="String">
+              <ADDRESS>India</ADDRESS>
+            </ADDRESS.LIST>
+            <COUNTRYNAME>India</COUNTRYNAME>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <GSTREGISTRATIONTYPE>Regular</GSTREGISTRATIONTYPE>
+            <INCOMETAXNUMBER>AACCJ3176B</INCOMETAXNUMBER>
+            <PARTYGSTIN>32AACCJ3176B1Z3</PARTYGSTIN>
+            <PARENT>Sundry Creditors</PARENT>
+            <NAME>Mr. aji dharman</NAME>
+          </LEDGER>
+          <LEDGER NAME="kuttu">
+            <ADDRESS.LIST TYPE="String">
+              <ADDRESS>ss</ADDRESS>
+              <ADDRESS>India</ADDRESS>
+            </ADDRESS.LIST>
+            <COUNTRYNAME>India</COUNTRYNAME>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <ISSEZPARTY>Yes</ISSEZPARTY>
+            <INCOMETAXNUMBER>AABCJ8147P</INCOMETAXNUMBER>
+            <PARTYGSTIN>32AABCJ8147P1Z6</PARTYGSTIN>
+            <PARENT>Sundry Creditors</PARENT>
+            <NAME>kuttu</NAME>
+          </LEDGER>
+        </TALLYMESSAGE>
+        <TALLYMESSAGE>
+          <LEDGER NAME="Input IGST">
+            <NAME>Input IGST</NAME>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <PARENT>Duties &amp; Taxes</PARENT>
+            <TAXTYPE>GST</TAXTYPE>
+            <GSTDUTYHEAD>Integrated Tax</GSTDUTYHEAD>
+          </LEDGER>
+          <LEDGER NAME="Input CGST">
+            <NAME>Input CGST</NAME>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <PARENT>Duties &amp; Taxes</PARENT>
+            <TAXTYPE>GST</TAXTYPE>
+            <GSTDUTYHEAD>Central Tax</GSTDUTYHEAD>
+          </LEDGER>
+          <LEDGER NAME="Input SGST">
+            <NAME>Input SGST</NAME>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <PARENT>Duties &amp; Taxes</PARENT>
+            <TAXTYPE>GST</TAXTYPE>
+            <GSTDUTYHEAD>State Tax</GSTDUTYHEAD>
+          </LEDGER>
+          <LEDGER NAME="Input Cess">
+            <NAME>Input Cess</NAME>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <PARENT>Duties &amp; Taxes</PARENT>
+            <TAXTYPE>GST</TAXTYPE>
+            <GSTDUTYHEAD>Cess</GSTDUTYHEAD>
+          </LEDGER>
+          <LEDGER NAME="Output IGST">
+            <NAME>Output IGST</NAME>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <PARENT>Duties &amp; Taxes</PARENT>
+            <TAXTYPE>GST</TAXTYPE>
+            <GSTDUTYHEAD>Integrated Tax</GSTDUTYHEAD>
+          </LEDGER>
+          <LEDGER NAME="Output CGST">
+            <NAME>Output CGST</NAME>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <PARENT>Duties &amp; Taxes</PARENT>
+            <TAXTYPE>GST</TAXTYPE>
+            <GSTDUTYHEAD>Central Tax</GSTDUTYHEAD>
+          </LEDGER>
+          <LEDGER NAME="Output SGST">
+            <NAME>Output SGST</NAME>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <PARENT>Duties &amp; Taxes</PARENT>
+            <TAXTYPE>GST</TAXTYPE>
+            <GSTDUTYHEAD>State Tax</GSTDUTYHEAD>
+          </LEDGER>
+          <LEDGER NAME="Output Cess">
+            <NAME>Output Cess</NAME>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <PARENT>Duties &amp; Taxes</PARENT>
+            <TAXTYPE>GST</TAXTYPE>
+            <GSTDUTYHEAD>Cess</GSTDUTYHEAD>
+          </LEDGER>
+          <LEDGER NAME="TDS Payable">
+            <NAME>TDS Payable</NAME>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <PARENT>Duties &amp; Taxes</PARENT>
+            <TAXTYPE>TDS</TAXTYPE>
+          </LEDGER>
+          <LEDGER NAME="TDS Receivable">
+            <NAME>TDS Receivable</NAME>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <PARENT>Current Assets</PARENT>
+            <TAXTYPE>TDS</TAXTYPE>
+          </LEDGER>
+          <LEDGER NAME="TCS Payable">
+            <NAME>TCS Payable</NAME>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <PARENT>Duties &amp; Taxes</PARENT>
+            <TAXTYPE>TCS</TAXTYPE>
+          </LEDGER>
+          <LEDGER NAME="TCS Receivable">
+            <NAME>TCS Receivable</NAME>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <PARENT>Current Assets</PARENT>
+            <TAXTYPE>TCS</TAXTYPE>
+          </LEDGER>
+          <LEDGER NAME="Sales">
+            <NAME>Sales</NAME>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <PARENT>Sales Accounts</PARENT>
+            <TAXTYPE>Others</TAXTYPE>
+          </LEDGER>
+          <LEDGER NAME="Purchase">
+            <NAME>Purchase</NAME>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <PARENT>Purchase Accounts</PARENT>
+            <TAXTYPE>Others</TAXTYPE>
+          </LEDGER>
+          <LEDGER NAME="Discount">
+            <NAME>Discount</NAME>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <PARENT>Income (Direct)</PARENT>
+            <TAXTYPE>Others</TAXTYPE>
+            <AFFECTSSTOCK>No</AFFECTSSTOCK>
+            <TDSAPPLICABLE> Not Applicable</TDSAPPLICABLE>
+            <TCSAPPLICABLE> Not Applicable</TCSAPPLICABLE>
+            <GSTAPPLICABLE> Not Applicable</GSTAPPLICABLE>
+            <UDF:VATDEALERNATURE.LIST DESC="VATDealerNature" ISLIST="Yes" TYPE="String">
+              <UDF:VATDEALERNATURE DESC="VATDealerNature">Discount</UDF:VATDEALERNATURE>
+            </UDF:VATDEALERNATURE.LIST>
+          </LEDGER>
+          <LEDGER NAME="General Service">
+            <NAME>General Service</NAME>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <PARENT>Direct Incomes</PARENT>
+            <TAXTYPE>Others</TAXTYPE>
+            <AFFECTSSTOCK>No</AFFECTSSTOCK>
+            <GSTTYPEOFSUPPLY>Services</GSTTYPEOFSUPPLY>
+            <TDSAPPLICABLE> Not Applicable</TDSAPPLICABLE>
+            <TCSAPPLICABLE> Not Applicable</TCSAPPLICABLE>
+            <GSTAPPLICABLE> Applicable</GSTAPPLICABLE>
+          </LEDGER>
+          <LEDGER NAME="Employee Advance">
+            <NAME>Employee Advance</NAME>
+            <TAXTYPE>Others</TAXTYPE>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <PARENT>Current Assets</PARENT>
+          </LEDGER>
+          <LEDGER NAME="Prepaid Expenses">
+            <NAME>Prepaid Expenses</NAME>
+            <TAXTYPE>Others</TAXTYPE>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <PARENT>Current Assets</PARENT>
+          </LEDGER>
+          <LEDGER NAME="Furniture and Equipment">
+            <NAME>Furniture and Equipment</NAME>
+            <TAXTYPE>Others</TAXTYPE>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <PARENT>Fixed Assets</PARENT>
+          </LEDGER>
+          <LEDGER NAME="Employee Reimbursements">
+            <NAME>Employee Reimbursements</NAME>
+            <TAXTYPE>Others</TAXTYPE>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <PARENT>Current Liabilities</PARENT>
+          </LEDGER>
+          <LEDGER NAME="Unearned Revenue">
+            <NAME>Unearned Revenue</NAME>
+            <TAXTYPE>Others</TAXTYPE>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <PARENT>Current Liabilities</PARENT>
+          </LEDGER>
+          <LEDGER NAME="Other Charges">
+            <NAME>Other Charges</NAME>
+            <TAXTYPE>Others</TAXTYPE>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <PARENT>Income (Direct)</PARENT>
+          </LEDGER>
+          <LEDGER NAME="Shipping Charge">
+            <NAME>Shipping Charge</NAME>
+            <TAXTYPE>Others</TAXTYPE>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <PARENT>Income (Direct)</PARENT>
+            <AFFECTSSTOCK>No</AFFECTSSTOCK>
+            <GSTTYPEOFSUPPLY>Services</GSTTYPEOFSUPPLY>
+            <TDSAPPLICABLE> Not Applicable</TDSAPPLICABLE>
+            <TCSAPPLICABLE> Not Applicable</TCSAPPLICABLE>
+            <GSTAPPLICABLE> Applicable</GSTAPPLICABLE>
+          </LEDGER>
+          <LEDGER NAME="General Income">
+            <NAME>General Income</NAME>
+            <TAXTYPE>Others</TAXTYPE>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <PARENT>Income (Direct)</PARENT>
+          </LEDGER>
+          <LEDGER NAME="Interest Income">
+            <NAME>Interest Income</NAME>
+            <TAXTYPE>Others</TAXTYPE>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <PARENT>Income (Direct)</PARENT>
+          </LEDGER>
+          <LEDGER NAME="Automobile Expense">
+            <NAME>Automobile Expense</NAME>
+            <TAXTYPE>Others</TAXTYPE>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <PARENT>Expenses (Indirect)</PARENT>
+          </LEDGER>
+          <LEDGER NAME="Bad Debt">
+            <NAME>Bad Debt</NAME>
+            <TAXTYPE>Others</TAXTYPE>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <PARENT>Expenses (Indirect)</PARENT>
+          </LEDGER>
+          <LEDGER NAME="Other Expenses">
+            <NAME>Other Expenses</NAME>
+            <TAXTYPE>Others</TAXTYPE>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <PARENT>Expenses (Indirect)</PARENT>
+          </LEDGER>
+          <LEDGER NAME="Uncategorized">
+            <NAME>Uncategorized</NAME>
+            <TAXTYPE>Others</TAXTYPE>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <PARENT>Expenses (Indirect)</PARENT>
+          </LEDGER>
+          <LEDGER NAME="Bank Fees and Charges">
+            <NAME>Bank Fees and Charges</NAME>
+            <TAXTYPE>Others</TAXTYPE>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <PARENT>Expenses (Indirect)</PARENT>
+          </LEDGER>
+          <LEDGER NAME="Tax Paid Expense">
+            <NAME>Tax Paid Expense</NAME>
+            <TAXTYPE>Others</TAXTYPE>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <PARENT>Expenses (Indirect)</PARENT>
+          </LEDGER>
+          <LEDGER NAME="Purchase Discounts">
+            <NAME>Purchase Discounts</NAME>
+            <TAXTYPE>Others</TAXTYPE>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+            <PARENT>Expenses (Indirect)</PARENT>
+          </LEDGER>
+          <LEDGER NAME="Test account">
+            <NAME>Test account</NAME>
+            <TAXTYPE>Others</TAXTYPE>
+            <MAILINGNAME>Test account</MAILINGNAME>
+            <PARENT>Bank Accounts</PARENT>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+          </LEDGER>
+          <LEDGER NAME="Test account2">
+            <NAME>Test account2</NAME>
+            <TAXTYPE>Others</TAXTYPE>
+            <MAILINGNAME>Test account2</MAILINGNAME>
+            <PARENT>Bank Accounts</PARENT>
+            <CURRENCYNAME>₹</CURRENCYNAME>
+          </LEDGER>
+        </TALLYMESSAGE>
+      </REQUESTDATA>
+    </IMPORTDATA>
+  </BODY>
+</ENVELOPE>
